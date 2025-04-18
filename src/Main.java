@@ -54,14 +54,14 @@ public class Main {
             System.out.println();
 
             //ساختن یک پلی لیست برای کاربر عادی
-            arya.createPlaylist("arya 's playlist" , arya);
+            arya.createPlaylist("arya 's playlist");
             System.out.println();
 
             //تبدیل کاربر عادی به پریمیوم
             arya.buyPremium(arya , 5);
 
             //ساخت پلی لیست و تست متد هاش
-            arya.createPlaylist("my playlist" , arya);
+            arya.createPlaylist("my playlist");
             System.out.println(arya.getPlaylists());
 
             Playlist p = arya.getPlaylist("my playlist");
