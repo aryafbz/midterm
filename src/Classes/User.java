@@ -109,8 +109,8 @@ public class User {
         return null;
     }
 
-    public void createPlaylist(String title , User owner){
-        this.behavior.createPlaylist(title, owner);
+    public void createPlaylist(String title){
+        this.behavior.createPlaylist(title, this);
     }
 
     public void playMusic(Music music) {
